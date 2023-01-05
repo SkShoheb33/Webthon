@@ -1,35 +1,38 @@
 /* write your CSS Code Here */
-*{
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: sans-serif;
     scroll-behavior: smooth;
 }
-.explore:hover{
+
+.explore:hover {
     transform: scale(1.2);
 }
 
-.navbar{
+.navbar {
     height: 8vh;
     background-color: white;
     width: 100%;
     /* z-index: 9; */
     position: fixed;
-    top:0;
+    top: 0;
     left: 0;
-}
-.navbar{
     display: flex;
     /* justify-content: center; */
     align-items: center;
     border-bottom: 1px solid;
     z-index: 9;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
 }
-.navitems{
+
+.navitems {
     width: 15vw;
 }
-.logo{
+
+.logo {
     background-image: url("assets/logo.svg");
     background-position: center;
     background-repeat: no-repeat;
@@ -40,15 +43,18 @@
     /* padding: 20px; */
     height: 80%;
 }
-.loginbtn:hover{
+
+.loginbtn:hover {
     border: 2px solid rgb(0, 86, 210);
     /* color: white; */
     background-color: rgb(222, 237, 243);
 }
-.joinbtn:hover{
+
+.joinbtn:hover {
     transform: scale(1.1);
 }
-.explore{
+
+.explore {
     background-color: rgb(0, 86, 210);
     width: 6vw;
     height: 50%;
@@ -62,14 +68,15 @@
     transform: scale(1.3);
 }
 
-#search{
+#search {
     width: 100%;
     height: 100%;
-    border-radius:5px ;
+    border-radius: 5px;
     border: none;
     padding: 5px;
 }
-.searchbtn{
+
+.searchbtn {
     width: 4vw;
     height: 80%;
     background-color: rgb(0, 86, 210);
@@ -78,7 +85,8 @@
     background-repeat: no-repeat;
     background-position: center;
 }
-.services{
+
+.services {
     /* border: 1px solid green; */
     width: 60vw;
     height: 100%;
@@ -87,18 +95,20 @@
     justify-content: space-between;
     align-items: center;
 }
-.search{
+
+.search {
     width: 50vw;
     height: 80%;
     margin-left: 20px;
     border: 1px solid black;
-    
 }
-.services div{
+
+.services div {
     font-size: 12px;
     /* align-self: center; */
 }
-.loginbtn{
+
+.loginbtn {
     color: rgb(0, 86, 210);
     /* padding-left: 5vw; */
     /* width: 200px; */
@@ -106,9 +116,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
-.joinbtn{
+
+.joinbtn {
     background-color: rgb(0, 86, 210);
     color: white;
     height: 80%;
@@ -116,18 +126,20 @@
     justify-content: center;
     align-items: center;
 }
-.od:hover{
-    border: 2px solid  rgb(0, 86, 210);
+
+.od:hover {
+    border: 2px solid rgb(0, 86, 210);
     padding: 15px;
 }
-.service:hover{
+
+.service:hover {
     color: rgb(0, 86, 210);
     cursor: pointer;
-    text-decoration: underline ;
+    text-decoration: underline;
 }
-.container{
+
+.container {
     /* position: relative; */
-  
     width: 100%;
     height: 120vh;
     background-color: aqua;
@@ -136,9 +148,10 @@
     /* justify-content: center; */
     /* align-items: center; */
 }
-.first{
+
+.first {
     position: relative;
-    top:8vh;
+    top: 8vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -146,12 +159,12 @@
     width: 100%;
     height: 75vh;
 }
-.first1{
+
+.first1 {
     width: 50%;
     height: 100%;
     /* border: 1px solid red; */
     display: flex;
-    
     /* justify-content: center; */
     /* align-items: center; */
     flex-direction: column;
@@ -159,17 +172,19 @@
     padding-left: 250px;
     /* padding-top: ; */
 }
-.first1 h1{
+
+.first1 h1 {
     font-size: 60px;
     margin-top: 50px;
 }
-.first2{
+
+.first2 {
     margin-top: 30px;
     width: 50%;
     height: 100%;
     /* border: 1px solid red; */
     position: relative;
-    top:-20px;
+    top: -20px;
     padding: 200px;
     background-image: url("assets/banner.png");
     background-position: center;
@@ -180,53 +195,64 @@
     justify-content: center;
     align-items: center;
 }
-.second{
+
+.second {
     position: relative;
     background-color: rgb(228, 223, 223);
     width: 100%;
     height: 150px;
 }
+
 .btns {
     /* border: 1px solid green; */
     display: flex;
 }
-.btns div{
+
+.btns div {
     display: flex;
     justify-content: center;
-    align-items: center;    
+    align-items: center;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
-.btns .btn1{
+
+.btns .btn1 {
     width: 35%;
     height: 7vh;
-    
     background-color: rgb(0, 86, 210);
     color: white;
 }
-.btns .btn2{
+
+.btns .btn2 {
     width: 65%;
-    border: 2px solid  rgb(0, 86, 210);
+    border: 2px solid rgb(0, 86, 210);
     color: rgb(0, 86, 210);
 }
-.btn1:hover,.btn2:hover{
+
+.btn1:hover,
+.btn2:hover {
     cursor: pointer;
     transform: scale(1.05);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
 }
-.second{
+
+.second {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-h2 span{
-    color:  rgb(0, 86, 210);
+
+h2 span {
+    color: rgb(0, 86, 210);
 }
-.icons{
+
+.icons {
     display: flex;
     justify-content: center;
     flex-direction: row;
-
 }
-.icons div{
+
+.icons div {
     /* border: 1px solid black; */
     width: 150px;
     height: 60px;
@@ -235,33 +261,42 @@ h2 span{
     background-position: center;
     background-repeat: no-repeat;
 }
-#a{
+
+#a {
     background-image: url('assets/pic-bar-1.png');
 }
-#b{
+
+#b {
     background-image: url('assets/pic-bar-2.png');
 }
-#c{
+
+#c {
     background-image: url('assets/pic-bar-3.png');
 }
-#d{
+
+#d {
     background-image: url('assets/pic-bar-4.png');
 }
-#e{
+
+#e {
     background-image: url('assets/pic-bar-6.png');
 }
-#f{
+
+#f {
     background-image: url('assets/pic-bar-7.png');
 }
-#g{
+
+#g {
     background-image: url('assets/pic-bar-8.png');
 }
-.span{
+
+.span {
     width: 100%;
     height: 15vh;
     background-color: white;
 }
-.footer{
+
+.footer {
     background-color: #181D31;
     width: 100%;
     height: 22vh;
@@ -269,10 +304,12 @@ h2 span{
     justify-content: center;
     align-items: center;
 }
-.footer h1{
+
+.footer h1 {
     color: white;
 }
-.footer div{
+
+.footer div {
     width: 80px;
     border: 2px solid white;
     height: 80px;
@@ -281,20 +318,25 @@ h2 span{
     background-repeat: no-repeat;
     border-radius: 50%;
 }
-.ic1{
+
+.ic1 {
     background-image: url("assets/rvrlogo.jpg");
     margin-left: 200px;
 }
-.ic2{
+
+.ic2 {
     margin-left: 20px;
     background-image: url("assets/Iste.png");
 }
-h1{
+
+h1 {
     text-align: left;
 }
-.services div{
+
+.services div {
     font-weight: bold;
 }
-#x{
+
+#x {
     font-size: 16px;
 }
