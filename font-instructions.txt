@@ -1,0 +1,7 @@
+Font recommended: Sans-serif
+
+Color used (blue) : rgb(0, 86, 210);
+    footer (black): #181D31;
+
+Images are in the Assets folder.
+
